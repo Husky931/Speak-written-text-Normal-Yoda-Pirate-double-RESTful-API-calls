@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.bigBox {
+    width: 30%;
+    height:30%;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid #7CB8EB;
+    border-radius: 20px;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.bigBox:focus {
+    outline: none;
+}
+
+.par {
+    text-align: center;
+    margin-top: 40px;
+    background-color: aliceblue;
+    color: #7CB8EB;
+    font-size: 1.5em;
+}
+.par2 {
+    text-align: center;
+    margin-top: 0px;
+    background-color: aliceblue;
+    color: #7CB8EB;
+    font-size: 1.5em;
+}
+
+.button {
+   width: 110px;
+   height: 60px;
+   background-color: #7CB8EB;
+   border-radius: 8px;
+   border: solid rgb(13, 120, 219);
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+   color: white;
+}
+
