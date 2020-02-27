@@ -6,11 +6,19 @@
         <title>Character / word counter</title>
     </head>
 
-<body>
-    <div class="bigBox" contenteditable="true"></div>
+<body onload="speakItNow()">
+    <div class="setFlex">
+        <button id='yodaButton'>How would Yoda say this?</button>
+        <!-- <div id='yodaTextContentDiv'></div> -->
+        <div class="bigBox" contenteditable="true" id='speakBigBox'></div>
+        <button id='pirateButton'>How would pirate say this?</button>
+        <!-- <div id='pirateTextContentDiv'></div> -->
+    </div>
     <p class="par"></p>
     <p class="par2"></p>
-    <button class="button">Click for number of words</button>
+    <button class="button" >Click for the number of words and listen to what your wrote</button>
+    
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=VVrK7BM0"></script>
     <script src='word-character-counter.js'></script>
 </body>
 </html>
