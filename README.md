@@ -1,5 +1,7 @@
 # Word-Character-counter-
 
+check it out at https://www.fusionreel.com/Yoda/word-character-counter.html
+
 Responsive voice API testings (3 different API calls) - one for normal responsive voice, one to rearange text as Yoda would say it and one to rearange the textas a pirate would say it. (note: the sound of the voice is the same, only the grammar and phrasing is changed)
 
 
